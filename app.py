@@ -56,6 +56,17 @@ st.set_page_config(
     div[data-testid="stMetric"] * {
         color: #172033 !important;
     }
+        h1, h2, h3 {
+    color: #ffffff !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #172033 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #172033 !important;
+}
 </style>
 </style>
 """, unsafe_allow_html=True)
