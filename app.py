@@ -24,7 +24,10 @@ st.set_page_config(
     page_icon="🎓",
     layout="wide"
 )
-
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"] {
+    color: #172033 !important;
+}
 st.markdown("""
 <style>
     .main {background-color: #f7f9fc;}
