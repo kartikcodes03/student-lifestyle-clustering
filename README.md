@@ -1,3 +1,13 @@
+# 🎓 Student Lifestyle & Stress Risk Analysis
+
+## 🌐 Live Website
+[🚀 Click Here to Visit Live Website](https://student-lifestyle-clustering-8zns.onrender.com)
+
+## 💻 Project Repository
+[View Source Code on GitHub](https://github.com/kartikcodes03/student-lifestyle-clustering)
+
+
+
 # Student Lifestyle & Stress Risk Analysis
 
 A machine learning project that studies students' digital habits and
