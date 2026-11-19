@@ -24,25 +24,39 @@ st.set_page_config(
     page_icon="🎓",
     layout="wide"
 )
-[data-testid="stMetricLabel"],
-[data-testid="stMetricValue"] {
-    color: #172033 !important;
-}
-st.markdown("""
 <style>
-    .main {background-color: #f7f9fc;}
-    .block-container {padding-top: 1.6rem; padding-bottom: 2rem;}
+    .main {
+        background-color: #f7f9fc;
+    }
+
+    .block-container {
+        padding-top: 1.6rem;
+        padding-bottom: 2rem;
+    }
+
     .hero {
-        padding: 1.5rem 1.8rem; border-radius: 18px;
+        padding: 1.5rem 1.8rem;
+        border-radius: 18px;
         background: linear-gradient(120deg, #132743, #245b82);
-        color: white; margin-bottom: 1rem;
+        color: white;
+        margin-bottom: 1rem;
     }
-    .hero h1 {color: white; margin-bottom: .3rem;}
-    .hero p {color: #e5eef7; margin-bottom: 0;}
+
+    .hero h1 {
+        color: white;
+    }
+
     div[data-testid="stMetric"] {
-        background: white; border: 1px solid #e6ebf2;
-        padding: 14px; border-radius: 12px;
+        background: white;
+        border: 1px solid #e6ebf2;
+        padding: 14px;
+        border-radius: 12px;
     }
+
+    div[data-testid="stMetric"] * {
+        color: #172033 !important;
+    }
+</style>
 </style>
 """, unsafe_allow_html=True)
 
