@@ -46,17 +46,23 @@ st.set_page_config(
         color: white;
     }
 
-    div[data-testid="stMetric"] {
-        background: white;
-        border: 1px solid #e6ebf2;
-        padding: 14px;
-        border-radius: 12px;
-    }
+   /* Metric Cards */
+div[data-testid="stMetric"] {
+    background-color: #1e293b !important;
+    border: 1px solid #334155;
+    padding: 18px;
+    border-radius: 12px;
+}
 
-    div[data-testid="stMetric"] * {
-        color: #172033 !important;
-    }
-        h1, h2, h3 {
+/* Metric Labels */
+div[data-testid="stMetricLabel"],
+div[data-testid="stMetricLabel"] * {
+    color: #cbd5e1 !important;
+}
+
+/* Metric Values */
+div[data-testid="stMetricValue"],
+div[data-testid="stMetricValue"] * {
     color: #ffffff !important;
 }
 
